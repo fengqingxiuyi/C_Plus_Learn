@@ -3,8 +3,13 @@ project(c_plus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(helloworld)
+include_directories(.)
 
-add_executable(c_plus
-        helloworld/helloworld.cpp
-        helloworld/helloworld.h)
+add_executable(
+        c_plus
+        _00_main.cpp
+        _01_helloworld.cpp
+        _01_helloworld.h
+        _02_readinput.cpp
+        _02_readinput.h
+)
