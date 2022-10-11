@@ -7,7 +7,8 @@
 
 
 class _00_main {
-
+public:
+    static void case03();
 };
 
 #endif //C_PLUS__01_MAIN_H

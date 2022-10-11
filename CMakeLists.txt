@@ -13,4 +13,6 @@ add_executable(
         _01_helloworld.h
         _02_readinput.cpp
         _02_readinput.h
+        _03_ticketmachine.cpp
+        _03_ticketmachine.h
 )

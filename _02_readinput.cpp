@@ -6,6 +6,7 @@
 #include <iostream>
 using namespace std;
 
+// ::是域的解析符
 void _02_readinput::readInput() {
     int number;
 
