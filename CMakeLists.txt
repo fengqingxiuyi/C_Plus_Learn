@@ -8,6 +8,7 @@ include_directories(.)
 add_executable(
         c_plus
         _00_main.cpp
+        _00_main.h
         _01_helloworld.cpp
         _01_helloworld.h
         _02_readinput.cpp

@@ -2,6 +2,7 @@
 // Created by shenBF on 2022/10/11.
 //
 
+#include "_00_main.h"
 #include "_02_readinput.h"
 extern void printHelloWorld(); // 暴露方法的第一种方式
 
