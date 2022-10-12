@@ -1,13 +1,13 @@
 //
-// Created by shenBF on 2022/10/11.
+// Created by shenBF on 2022/10/12.
 //
 
-#include "_02_readinput.h"
+#include "ReadInput.h"
 #include <iostream>
 using namespace std;
 
 // ::是域的解析符
-void _02_readinput::readInput() {
+void ReadInput::readInput() {
     int number;
 
     cout << "Enter a decimal number:";
