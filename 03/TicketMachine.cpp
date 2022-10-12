@@ -6,13 +6,13 @@
 #include <iostream>
 using namespace std;
 
-TicketMachine::TicketMachine() : PRICE(0) {
-    balance = 0;
+TicketMachine::TicketMachine(int balance) : PRICE(0) {
+    TicketMachine::balance = balance;
     total = 0;
 }
 
 TicketMachine::~TicketMachine() {
-
+    cout << "destructor TicketMachine";
 }
 
 void TicketMachine::showPrompt() {
@@ -23,7 +23,7 @@ void TicketMachine::insertMoney(int money) {
     balance += money;
 }
 
-void TicketMachine::showBalance() {
+void TicketMachine::showBalance() const {
     cout << "balance is " << balance << ".";
 }
 

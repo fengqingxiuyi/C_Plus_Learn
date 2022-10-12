@@ -16,7 +16,8 @@ int main() {
 }
 
 void main::case03() {
-    TicketMachine tm;
+    TicketMachine tm(10);
+    TicketMachine::showPrompt();
     tm.insertMoney(100);
     tm.showBalance();
 }
