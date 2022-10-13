@@ -6,9 +6,7 @@
 #define C_PLUS_FRIEND_H
 
 
-class friend
-
-{
+class Friend {
 
 };
 
