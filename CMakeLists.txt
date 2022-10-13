@@ -15,5 +15,7 @@ add_executable(c_plus
         02/ReadInput.h
         03/TicketMachine.cpp
         03/TicketMachine.h
+        04/Friend.cpp
+        04/Friend.h
         main.cpp
         main.h)
